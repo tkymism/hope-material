@@ -1,0 +1,48 @@
+{
+  "name": "hope-materials",
+  "version": "0.0.1",
+  "description": "HOPE React Components Library",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "react-scripts test",
+    "storybook": "start-storybook",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "transpile": "npm run transpile"
+  },
+  "author": "= <=> (=)",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/react": "^5.2.1",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "jest": "^24.9.0",
+    "react-scripts": "^3.2.0",
+    "react-test-renderer": "^16.10.2"
+  },
+  "peerDependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.5.0",
+    "@material-ui/icons": "^4.4.3",
+    "prop-types": "^15.7.2",
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

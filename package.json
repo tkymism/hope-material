@@ -1,7 +1,7 @@
 {
-  "name": "hope-material",
+  "name": "@hope/material",
   "version": "0.0.1",
-  "description": "HOPE React Components Library",
+  "description": "HOPE Material-UI Components Library",
   "main": "dist/index.js",
   "scripts": {
     "test": "react-scripts test",
@@ -10,8 +10,8 @@
     "build": "react-scripts build",
     "transpile": "npm run transpile"
   },
-  "author": "= <=> (=)",
-  "license": "ISC",
+  "author": "takayama",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.6.2",
     "@babel/core": "^7.6.2",
@@ -31,7 +31,7 @@
   "dependencies": {
     "@material-ui/core": "^4.5.0",
     "@material-ui/icons": "^4.4.3",
-    "prop-types": "^15.7.2",
+    "prop-types": "^15.7.2"
   },
   "browserslist": {
     "production": [
